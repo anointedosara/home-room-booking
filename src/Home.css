@@ -161,7 +161,7 @@
   
   .features-div:hover .feature {
     opacity: 1;
-    pointer-events: all;
+    z-index: 100;
   }
   
   .features-div:hover {
@@ -195,8 +195,7 @@
     transition: all .3s linear;
     display: flex;
     opacity: 0;
-    z-index: 100;
-    pointer-events: none;
+    z-index: -100;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -312,5 +311,9 @@
     }
     h2 {
       font-size: 20px;
+    }
+    .feature {
+      top: 32%;
+      left: 31.5%;
     }
   }
