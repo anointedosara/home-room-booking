@@ -3,7 +3,8 @@ import React from 'react'
 function Services() {
     
   return (
-    <div className='service'>
+    <div className='serve'>
+        <div className='service'>
         <h2>Services</h2>
         <div className='line'></div>
         <div className='services'>
@@ -28,6 +29,7 @@ function Services() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.</p>
             </div>
         </div>
+    </div>
     </div>
   )
 }

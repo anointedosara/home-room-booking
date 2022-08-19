@@ -1,5 +1,8 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import './Home.css';
+import './Rooms.css';
+import './Details.css';
 import FeatureOne from './pages/FeatureOne';
 import FeatureThree from './pages/FeatureThree';
 import FeatureTwo from './pages/FeatureTwo';

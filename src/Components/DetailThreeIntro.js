@@ -49,18 +49,12 @@ function DetailThreeIntro() {
             <div className='list'>
                 <div>
                     <p>- Plush pillows and breathable bed linens</p>
-                    <p>- Complimentary refreshments</p>
-                    <p>- Comfortable beds</p>
-                </div>
-
-                <div>
                     <p>- Soft, oversized bath towels</p>
-                    <p>- Adequate safety/security</p>
-                </div>
-
-                <div>
                     <p>- Full-sized, pH-balanced toiletries</p>
+                    <p>- Complimentary refreshments</p>
+                    <p>- Adequate safety/security</p>
                     <p>- Internet</p>
+                    <p>- Comfortable beds</p>
                 </div>
             </div>
         </div>

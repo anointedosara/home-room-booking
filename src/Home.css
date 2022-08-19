@@ -1,0 +1,316 @@
+.home-intro {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.home-intro-main {
+    background-image: url("../public/images/bg-home.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-intro-div {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 32px 96px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .home-intro-div h1 {
+    line-height: 1;
+    margin: 0 0 32px 0;
+    font-size: 64px;
+  }
+  
+  .home-intro-div div {
+    width: 160px;
+    height: 5px;
+    background: #af9a7d;
+    margin: 27.2px auto;
+  }
+  
+  .home-intro-div p {
+    margin: 0 0 32px 0;
+    font-size: 19.2px;
+  }
+  
+  .home-intro-div button {
+    font-size: 17px;
+    padding: 8px 13px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #222;
+    background: #af9a7d;
+    border: 3px solid #af9a7d;
+    transition: all .3s linear;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .home-intro-div button:hover {
+    background: transparent;
+    color: #af9a7d;
+  }
+
+  .serve {
+    background: #cfcfcf;
+  }
+  
+  .service {
+    padding: 16px 180px;
+    text-align: center;
+    max-width: 1540px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: 0 0 16px 0;
+  }
+  
+  .line {
+    width: 80px;
+    height: 5px;
+    margin: 0 auto 64px auto;
+    background: #af9a7d;
+  }
+  
+  .services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+  
+  .services h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+  }
+  
+  .services p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .services div {
+    padding: 16px 0;
+  }
+  
+  .featured-rooms {
+    padding: 80px 180px;
+    max-width: 1540px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    padding: 4.8px 9.8px 8px;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    transition: all .3s linear;
+  }
+  
+  .features-div:hover .price {
+    opacity: 0;
+  }
+
+  .price p:first-child {
+    font-size: 14.4px;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+  
+  .price p span {
+    margin-right: 8px;
+    
+  }
+  
+  .price p {
+    margin: 0;
+    font-size: 8px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+  
+  .features-div {
+    position: relative;
+    box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+    transition: all .3s linear;
+  }
+  
+  .features-div:hover .feature {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .features-div:hover {
+    box-shadow: 5px 10px 5px 0 rgb(0 0 0 / 50%);
+  }
+  
+  .features-div:hover .black {
+    opacity: 1;
+  }
+  
+  .features-div div:last-child {
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    margin-top: -5px;
+  }
+  
+  .features-div img {
+    width: 100%;
+  }
+  
+  .feature {
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    transition: all .3s linear;
+    display: flex;
+    opacity: 0;
+    z-index: 100;
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #222;
+    background: #af9a7d;
+    padding: 12px 12px 8px 12px;
+    border: 3px solid #af9a7d;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .feature:hover {
+    background: transparent;
+    color: #af9a7d;
+  }
+  
+  .img-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.55);
+    transition: all .3s linear;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 1230px) {
+    .services {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .service {
+      padding: 16px 32px;
+    }
+    .featured-rooms {
+      padding: 80px 32px;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .features {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .home-intro-div {
+      padding: 32px 48px;
+    }
+    .home-intro-div h1 {
+      margin: 0 0 24px 0;
+      font-size: 48px;
+    }
+    .services {
+      grid-template-columns: 1fr 1fr;
+    }
+    .services div {
+      padding: 0px 55.8px;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .features {
+      grid-template-columns: 1fr;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .feature {
+      top: 39%;
+      left: 40%;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .services {
+      grid-template-columns: 1fr;
+      max-width: 580px;
+      padding-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .home-intro-div {
+      padding: 32px 16px;
+    }
+    .home-intro-div h1 {
+      margin: 0 0 20px 0;
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 410px) {
+    .services div {
+      padding: 0;
+    }
+    .home-intro-div {
+      padding: 32px 16px;
+    }
+    .home-intro-div h1 {
+      margin: 0 0 20px 0;
+      font-size: 25px;
+    }
+    .home-intro-div div {
+      width: 120px;
+      margin: 15px auto;
+    }
+    .home-intro-div p {
+      margin: 0 0 20px 0;
+      font-size: 12px;
+    }
+    .home-intro-div button {
+      font-size: 14px;
+      padding: 8px 10px 6px 10px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
