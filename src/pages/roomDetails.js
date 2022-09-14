@@ -68,7 +68,7 @@ if(loading) {
                 <p>Price : {roomDetails?.information?.price}</p>
                 <p>Size : {roomDetails?.information?.size}</p>
                 <p>Max Capacity : {roomDetails?.information?.maxCap}</p>
-                <p>Pets Allowed</p>
+                <p>Pets : {roomDetails?.information?.pets}</p>
                 <p>Free Breakfast Included</p>
             </div>
         </div>

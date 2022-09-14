@@ -95,7 +95,8 @@ function SearchComponent() {
             </div>
         </div>
 
-        <SearchedRoom type={searchData.roomType} />
+        <SearchedRoom type={searchData.roomType} price={searchData.priceRange} guests={searchData.guests} 
+        width={searchData.minSize} height={searchData.maxSize} pets={searchData.pet} />
     </div>
   )
 }
