@@ -115,7 +115,7 @@ code {
     flex-direction: column;
     top: 56px;
     left: -32px;
-    width: 100%;
+    width: calc(100% + 64px);
   }
   .hide {
     display: none;
@@ -128,7 +128,7 @@ code {
   }
   .nav-bar i {
     position: absolute;
-    right: 64px;
+    right: 0px;
     font-size: 25px;
     color: #af9a7d;
     display: block;

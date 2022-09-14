@@ -245,10 +245,22 @@
     .featured-rooms {
       padding: 80px 32px;
     }
+    .searched-rooms {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 40px;
+      padding: 80px 0 0 0;
+    }
   }
   @media screen and (max-width: 1125px) {
     .features {
       grid-template-columns: 1fr 1fr;
+    }
+    .searched-rooms {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+      padding: 80px 0 0 0;
     }
   }
   @media screen and (max-width: 960px) {
@@ -271,6 +283,12 @@
       grid-template-columns: 1fr;
       max-width: 580px;
       margin: 0 auto;
+    }
+    .searched-rooms {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 40px;
+      padding: 80px 0 0 0;
     }
     .feature {
       top: 39%;

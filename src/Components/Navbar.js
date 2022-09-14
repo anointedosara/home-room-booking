@@ -14,8 +14,8 @@ const handleClick = () => {
         <nav className="nav-bar">
           <Link to='/'><img src="./images/Home-Logo.svg" alt="" /></Link>
           <div className={display ? 'show' : 'hide'}>
-            <Link to='/'>Home</Link>
-            <Link to='/rooms'>Rooms</Link>
+            <Link to='/' onClick={() => setDisplay(!display)}>Home</Link>
+            <Link to='/rooms' onClick={() => setDisplay(!display)}>Rooms</Link>
           </div>
           <i className="fa-solid fa-align-right" onClick={handleClick}></i>
         </nav>
