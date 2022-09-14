@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function SearchedRoom() {
+function SearchedRoom(props) {
     const featuredData = [
         {
           price: "$100",
@@ -82,10 +82,13 @@ function SearchedRoom() {
             name: "Presidential",
           }
       ];
+
+      const filteredData = featuredData?.filter((item) => item?.name.toLowerCase().includes(props.type))
+      
   return (
       <div className="searched-rooms">
-        {
-          featuredData?.map?.((room) => <div className="features-div">
+        { props.type !== 'all' ?
+          filteredData?.map?.((room) => <div className="features-div">
           <div className="price">
             <p>
               {room?.price}
@@ -100,7 +103,23 @@ function SearchedRoom() {
             <img src={room?.img} alt="" />
           </div>
           <div>{room?.name}</div>
-        </div>)
+        </div>) : 
+        featuredData?.map?.((room) => <div className="features-div">
+        <div className="price">
+          <p>
+            {room?.price}
+          </p>
+          <p>per night</p>
+        </div>
+        <Link to={`/rooms/${room?.name}`}>
+          <button className="feature">FEATURE</button>
+        </Link>
+        <div className="img-wrapper">
+          <div className="black"></div>
+          <img src={room?.img} alt="" />
+        </div>
+        <div>{room?.name}</div>
+      </div>)
         }
        
       </div>

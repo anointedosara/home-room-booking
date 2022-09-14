@@ -95,7 +95,7 @@ function SearchComponent() {
             </div>
         </div>
 
-        <SearchedRoom />
+        <SearchedRoom type={searchData.roomType} />
     </div>
   )
 }
