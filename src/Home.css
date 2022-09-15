@@ -198,7 +198,7 @@
   .feature {
     position: absolute;
     top: 32%;
-    left: 33%;
+    left: 28%;
     transition: all .3s linear;
     display: flex;
     opacity: 0;
@@ -245,6 +245,9 @@
     .featured-rooms {
       padding: 80px 32px;
     }
+    .feature {
+      left: 32%;
+    }
     .searched-rooms {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -255,6 +258,10 @@
   @media screen and (max-width: 1125px) {
     .features {
       grid-template-columns: 1fr 1fr;
+    }
+    .feature {
+      top: 40%;
+      left: 37%;
     }
     .searched-rooms {
       display: grid;
@@ -301,6 +308,10 @@
       max-width: 580px;
       padding-bottom: 20px;
     }
+    .feature {
+      top: 39%;
+      left: 35%;
+    }
   }
   @media screen and (max-width: 575px) {
     .home-intro-div {
@@ -340,5 +351,11 @@
     .feature {
       top: 32%;
       left: 31.5%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .feature {
+      top: 32%;
+      left: 25.5%;
     }
   }
