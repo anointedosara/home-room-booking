@@ -35,7 +35,7 @@ if(loading) {
       <div className='detail-0ne-intro'>
         <div className='details-intro' style={{backgroundImage: `url(${roomDetails?.img})`}}>
             <div className='details-intro-div'>
-                <h1>{roomDetails?.name}</h1>
+                <h1>{roomDetails?.name} Room</h1>
                 <div></div>
                 <Link to="/rooms"><button>BACK TO ROOMS</button></Link>
             </div>
@@ -69,7 +69,7 @@ if(loading) {
                 <p>Size : {roomDetails?.information?.size}</p>
                 <p>Max Capacity : {roomDetails?.information?.maxCap}</p>
                 <p>Pets : {roomDetails?.information?.pets}</p>
-                <p>Free Breakfast Included</p>
+                <p>{roomDetails?.information?.breakfast}</p>
             </div>
         </div>
 

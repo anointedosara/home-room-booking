@@ -2,12 +2,19 @@ const roomData = [
     { 
         id: "1",
         name: "Single Economy",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+            'Soft, oversized bath towels',
+            'Full-sized, pH-balanced toiletries',
+            'Complimentary refreshments',
+            'Adequate safety/security',
+            'Internet',
+            'Comfortable beds'],
         information: {
             price: "$100",
-            size: "200ft",
-            maxCap: "1 People",
-            pets: 'Not Allowed'
+            size: "200 SQFT",
+            maxCap: "1 Person",
+            pets: 'Not Allowed',
+            breakfast: 'Free Breakfast Included'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-1.05b90599.jpeg",
         details: "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray."
@@ -15,11 +22,17 @@ const roomData = [
     {
         id:"2",
         name: "Single Basic",
-        extras: ["DSTV", "AC", "fan"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$150",
-            size: "250ft",
-            maxCap: "1 People",
+            size: "250 SQFT",
+            maxCap: "1 Person",
             pets: 'Not Allowed'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-2.48c60181.jpeg",
@@ -28,11 +41,17 @@ const roomData = [
     {
         id: "3",
         name: "Single Standard",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$250",
-            size: "300ft",
-            maxCap: "1 People",
+            size: "300 SQFT",
+            maxCap: "1 Person",
             pets: 'Allowed'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-3.92fc5b83.jpeg",
@@ -41,12 +60,19 @@ const roomData = [
     {
         id: "4",
         name: "Single Deluxe",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$300",
-            size: "350ft",
-            maxCap: "1 People",
-            pets: 'Allowed'
+            size: "350 SQFT",
+            maxCap: "1 Person",
+            pets: 'Allowed',
+            breakfast: 'Free Breakfast Included'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-4.10d2e64a.jpeg",
         details: "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray."
@@ -54,10 +80,16 @@ const roomData = [
     { 
         id: "5",
         name: "Double Economy",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$200",
-            size: "400ft",
+            size: "400 SQFT",
             maxCap: "2 People",
             pets: 'Not Allowed'
         },
@@ -67,10 +99,16 @@ const roomData = [
     {
         id:"6",
         name: "Double Basic",
-        extras: ["DSTV", "AC", "fan"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$250",
-            size: "450ft",
+            size: "450 SQFT",
             maxCap: "2 People",
             pets: 'Not Allowed'
         },
@@ -80,10 +118,16 @@ const roomData = [
     {
         id: "7",
         name: "Double Standard",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$300",
-            size: "500ft",
+            size: "500 SQFT",
             maxCap: "2 People",
             pets: 'Allowed'
         },
@@ -93,12 +137,19 @@ const roomData = [
     {
         id: "8",
         name: "Double Deluxe",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$400",
-            size: "600ft",
+            size: "600 SQFT",
             maxCap: "2 People",
-            pets: 'Allowed'
+            pets: 'Allowed',
+            breakfast: 'Free Breakfast Included'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-8.5b658df9.jpeg",
         details: "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray."
@@ -106,10 +157,16 @@ const roomData = [
     { 
         id: "9",
         name: "Family Economy",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$300",
-            size: "700ft",
+            size: "700 SQFT",
             maxCap: "3 People",
             pets: 'Not Allowed'
         },
@@ -119,10 +176,16 @@ const roomData = [
     {
         id:"10",
         name: "Family Basic",
-        extras: ["DSTV", "AC", "fan"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$350",
-            size: "800ft",
+            size: "800 SQFT",
             maxCap: "4 People",
             pets: 'Not Allowed'
         },
@@ -132,10 +195,16 @@ const roomData = [
     {
         id: "11",
         name: "Family Standard",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$400",
-            size: "850ft",
+            size: "850 SQFT",
             maxCap: "5 People",
             pets: 'Allowed'
         },
@@ -145,12 +214,19 @@ const roomData = [
     {
         id: "12",
         name: "Family Deluxe",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$500",
-            size: "900ft",
+            size: "900 SQFT",
             maxCap: "6 People",
-            pets: 'Allowed'
+            pets: 'Allowed',
+            breakfast: 'Free Breakfast Included'
         },
         img: "https://mukul-breach-resort-project.netlify.app/static/media/room-12.7dee4920.jpeg",
         details: "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray."
@@ -158,12 +234,19 @@ const roomData = [
     {
         id: "13",
         name: "Presidential",
-        extras: ["DSTV", "AC"],
+        extras: ['Plush pillows and breathable bed linens',
+        'Soft, oversized bath towels',
+        'Full-sized, pH-balanced toiletries',
+        'Complimentary refreshments',
+        'Adequate safety/security',
+        'Internet',
+        'Comfortable beds'],
         information: {
             price: "$600",
-            size: "1000ft",
+            size: "1000 SQFT",
             maxCap: "10 People",
-            pets: 'Allowed'
+            pets: 'Allowed',
+            breakfast: 'Free Breakfast Included'
         },
         img: "../images/home-third-room-img.jpeg",
         details: "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray."

@@ -63,11 +63,11 @@ function SearchComponent() {
                 <div className='size'>
                     Room Size
                     <div>
-                        <input type="number" min='0' value={searchData?.minSize} onChange={(e) => setSearchData({
+                        <input type="number" min='0' max='1000' value={searchData?.minSize} onChange={(e) => setSearchData({
                             ...searchData,
                             minSize: e.target.value
                         })}  />
-                        <input type="number" value={searchData?.maxSize} onChange={(e) => setSearchData({
+                        <input type="number" max='1000' min='0' value={searchData?.maxSize} onChange={(e) => setSearchData({
                             ...searchData,
                             maxSize: e.target.value
                         })}  />
@@ -96,7 +96,7 @@ function SearchComponent() {
         </div>
 
         <SearchedRoom type={searchData.roomType} price={searchData.priceRange} guests={searchData.guests} 
-        width={searchData.minSize} height={searchData.maxSize} pets={searchData.pet} />
+        width={searchData.minSize} height={searchData.maxSize} pets={searchData.pet} breakfast={searchData.breakfast} />
     </div>
   )
 }
