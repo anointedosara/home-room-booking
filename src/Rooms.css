@@ -2,6 +2,7 @@
     background-image: url("../public/images/rooms-bg-1.jpeg");
     width: 100%;
     height: 70vh;
+    max-height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
